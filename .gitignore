@@ -1,0 +1,60 @@
+# === Build artifacts ===
+*.o
+*.obj
+*.lo
+*.a
+*.la
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+
+# === CMake ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+build*/
+
+# === IDEs and editors ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.ipch
+
+# Code::Blocks
+*.layout
+*.cbp
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs and temp files ===
+*.log
+*.swp
+*.bak
+*.tmp
+
+# === Git ===
+*.orig
+*.rej
